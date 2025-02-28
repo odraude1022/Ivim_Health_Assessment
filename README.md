@@ -14,12 +14,12 @@ CREATE TABLE note (
 	updatedAt TIMESTAMP NOT NULL
 );
 ```
-You will need the following environment variables defined in a .env file at the root of the repository. SERVER_PORT refers to the port you want this application to run on. The rest are the connection details for your postgres database:
-SERVER_PORT
-POSTGRES_HOST
-POSTGRES_USER
-POSTGRES_PASSWORD
-POSTGRES_DB
+You will need the following environment variables defined in a .env file at the root of the repository. SERVER_PORT refers to the port you want this application to run on. The rest are the connection details for your postgres database:\
+SERVER_PORT\
+POSTGRES_HOST\
+POSTGRES_USER\
+POSTGRES_PASSWORD\
+POSTGRES_DB\
 POSTGRES_PORT
 
 make sure to run `npm install` to install all necessary dependencies.
